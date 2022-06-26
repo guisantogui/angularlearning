@@ -8,7 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ParentComponentComponent implements OnInit {
 
   @Input() title!: string
-  @Input() complexData!: {}
+  @Input() complexData!: {email: string, internetProvider: string}
 
   constructor() { }
 
