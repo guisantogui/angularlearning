@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'gymcontrol';
+
+  parentComponentTitle = 'TitleSend Through Components'
+  complexObject = {email: "test@through", internetProvider: "BOL"}
+
 }
