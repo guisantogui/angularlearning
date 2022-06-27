@@ -1,0 +1,8 @@
+<div class="class">
+  <div *ngIf="canShow"> Texto permitido aparecer</div>
+
+  <h2 *ngIf="name === 'Batman'; else nameNotFound "> O nome é Batman</h2> <!--GAMBITO, fazer condicional no arquivo TS-->
+
+
+  <ng-template #nameNotFound> <p>O nome não foi encontrado</p> </ng-template>
+</div>
