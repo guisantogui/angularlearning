@@ -7,6 +7,8 @@ import { StudentComponentComponent } from './components/student-component/studen
 import { ParentComponentComponent } from './components/parent-component/parent-component.component';
 import { IfrenderComponent } from './components/ifrender/ifrender.component';
 import { EventsComponent } from './components/events/events.component';
+import { EmitterComponent } from './components/emitter/emitter.component';
+import { ChangeNumberComponent } from './components/change-number/change-number.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { EventsComponent } from './components/events/events.component';
     StudentComponentComponent,
     ParentComponentComponent,
     IfrenderComponent,
-    EventsComponent
+    EventsComponent,
+    EmitterComponent,
+    ChangeNumberComponent
   ],
   imports: [
     BrowserModule,
