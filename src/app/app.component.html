@@ -1,7 +1,17 @@
 <div class="class">
-  <h1>Hello World</h1>
-  <p> ramdon text</p>
+  <h1>HEADER</h1>
 </div>
+<nav>
+  <a routerLink="/">HOME</a><br/>
+  <a routerLink="/list">Lista animais</a><br/>
+  <a routerLink="/emitter">Emitter</a><br/>
+  <a routerLink="/change-number">Change Number</a><br/>
+</nav>
+<router-outlet></router-outlet>
+<div class="class">
+  <h1>FOOTER</h1>
+</div>
+<!--
 <app-student-component></app-student-component>
 <app-parent-component [title]="parentComponentTitle" [complexData]="complexObject"></app-parent-component>
 <app-ifrender></app-ifrender>
@@ -9,3 +19,4 @@
 <app-emitter></app-emitter>
 <app-listrender></app-listrender>
 <app-two-way-binding></app-two-way-binding>
+-->
