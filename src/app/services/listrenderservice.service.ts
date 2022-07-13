@@ -19,4 +19,8 @@ export class ListrenderserviceService {
   getAnimals(): Observable<Animal[]> {
     return this.http.get<Animal []>(this.API_URL);
   }
+
+  getItem(id: number): Observable<Animal> {
+    return this.http.get<Animal>(`${this.API_URL}/${id}`);
+  }
 }
